@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>React.js</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="libraries/react.development.js"></script>
+    <script src="libraries/react-dom.development.js"></script>
+    <script src="libraries/babel.min.js"></script>
+    <script src="flags.js"></script>
+    <style type="text/css">
+
+
+        #wrapper {
+            padding: 20px;
+            text-align: center;
+        }
+
+        #root {
+            width: 800px;
+            margin: 0 auto;
+        }
+        #row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            background: #fff500;
+            font-size: 100px;
+        }
+        #flag {
+            text-align: center;
+            line-height: 100px;
+            font-size: 150px;
+        }
+        #options{
+            text-align: center;
+            line-height: 125px;
+            font-size: 100px;
+        }
+    </style>
+    <script type="text/babel">
+        function App() {
+            function getRandomInRange(min, max) {
+                return Math.floor(Math.random() * (max - min + 1)) + min;
+            }
+            let result = getRandomInRange(0, 250)
+            return <>
+
+                <div id="flag">
+                    {flags[result].emoji}
+                </div>
+                <div id="options">
+                    {flags[result].name}
+                </div>
+                <button id="row">1 Вариант</button>
+                <button id="row">2 Вариант</button>
+                <button id="row">3 Вариант</button>
+                <button id="row">4 Вариант</button>
+            </>;
+        }
+        ReactDOM.render(<App/>, document.getElementById('root'));
+    </script>
+</head>
+<body>
+<div id="wrapper">
+    <div id="root"></div>
+</div>
+</body>
+</html>
