@@ -3,7 +3,7 @@ const flags = [
         "code": "AD",
         "emoji": "🇦🇩",
         "unicode": "U+1F1E6 U+1F1E9",
-        "name": "Andorra",
+        "name": "Андорра",
         "title": "flag for Andorra",
         "dialCode": "+376"
     },
@@ -11,7 +11,7 @@ const flags = [
         "code": "AE",
         "emoji": "🇦🇪",
         "unicode": "U+1F1E6 U+1F1EA",
-        "name": "United Arab Emirates",
+        "name": "Объединенные Арабские Эмираты",
         "title": "flag for United Arab Emirates",
         "dialCode": "+971"
     },
@@ -19,7 +19,7 @@ const flags = [
         "code": "AF",
         "emoji": "🇦🇫",
         "unicode": "U+1F1E6 U+1F1EB",
-        "name": "Afghanistan",
+        "name": "Афганистан",
         "title": "flag for Afghanistan",
         "dialCode": "+93"
     },
@@ -27,7 +27,7 @@ const flags = [
         "code": "AG",
         "emoji": "🇦🇬",
         "unicode": "U+1F1E6 U+1F1EC",
-        "name": "Antigua and Barbuda",
+        "name": "Антигуа и Барбуда",
         "title": "flag for Antigua and Barbuda",
         "dialCode": "+1268"
     },
@@ -35,7 +35,7 @@ const flags = [
         "code": "AI",
         "emoji": "🇦🇮",
         "unicode": "U+1F1E6 U+1F1EE",
-        "name": "Anguilla",
+        "name": "Ангилья",
         "title": "flag for Anguilla",
         "dialCode": "+1 264"
     },
@@ -43,7 +43,7 @@ const flags = [
         "code": "AL",
         "emoji": "🇦🇱",
         "unicode": "U+1F1E6 U+1F1F1",
-        "name": "Albania",
+        "name": "Албания",
         "title": "flag for Albania",
         "dialCode": "+355"
     },
@@ -51,7 +51,7 @@ const flags = [
         "code": "AM",
         "emoji": "🇦🇲",
         "unicode": "U+1F1E6 U+1F1F2",
-        "name": "Armenia",
+        "name": "Армения",
         "title": "flag for Armenia",
         "dialCode": "+374"
     },
@@ -59,7 +59,7 @@ const flags = [
         "code": "AO",
         "emoji": "🇦🇴",
         "unicode": "U+1F1E6 U+1F1F4",
-        "name": "Angola",
+        "name": "Ангола",
         "title": "flag for Angola",
         "dialCode": "+244"
     },
@@ -67,7 +67,7 @@ const flags = [
         "code": "AQ",
         "emoji": "🇦🇶",
         "unicode": "U+1F1E6 U+1F1F6",
-        "name": "Antarctica",
+        "name": "Антарктида",
         "title": "flag for Antarctica",
         "dialCode": null
     },
@@ -75,7 +75,7 @@ const flags = [
         "code": "AR",
         "emoji": "🇦🇷",
         "unicode": "U+1F1E6 U+1F1F7",
-        "name": "Argentina",
+        "name": "Аргентина",
         "title": "flag for Argentina",
         "dialCode": "+54"
     },
@@ -83,7 +83,7 @@ const flags = [
         "code": "AS",
         "emoji": "🇦🇸",
         "unicode": "U+1F1E6 U+1F1F8",
-        "name": "American Samoa",
+        "name": "Американское Самоа",
         "title": "flag for American Samoa",
         "dialCode": "+1 684"
     },
@@ -91,7 +91,7 @@ const flags = [
         "code": "AT",
         "emoji": "🇦🇹",
         "unicode": "U+1F1E6 U+1F1F9",
-        "name": "Austria",
+        "name": "Австрия",
         "title": "flag for Austria",
         "dialCode": "+43"
     },
@@ -99,7 +99,7 @@ const flags = [
         "code": "AU",
         "emoji": "🇦🇺",
         "unicode": "U+1F1E6 U+1F1FA",
-        "name": "Australia",
+        "name": "Австралия",
         "title": "flag for Australia",
         "dialCode": "+61"
     },
@@ -107,7 +107,7 @@ const flags = [
         "code": "AW",
         "emoji": "🇦🇼",
         "unicode": "U+1F1E6 U+1F1FC",
-        "name": "Aruba",
+        "name": "Аруба",
         "title": "flag for Aruba",
         "dialCode": "+297"
     },
@@ -115,7 +115,7 @@ const flags = [
         "code": "AX",
         "emoji": "🇦🇽",
         "unicode": "U+1F1E6 U+1F1FD",
-        "name": "Åland Islands",
+        "name": "Аландские острова\n",
         "title": "flag for Åland Islands",
         "dialCode": ""
     },
@@ -123,7 +123,7 @@ const flags = [
         "code": "AZ",
         "emoji": "🇦🇿",
         "unicode": "U+1F1E6 U+1F1FF",
-        "name": "Azerbaijan",
+        "name": "Азербайджан",
         "title": "flag for Azerbaijan",
         "dialCode": "+994"
     },
@@ -131,7 +131,7 @@ const flags = [
         "code": "BA",
         "emoji": "🇧🇦",
         "unicode": "U+1F1E7 U+1F1E6",
-        "name": "Bosnia and Herzegovina",
+        "name": "Босния и Герцеговина",
         "title": "flag for Bosnia and Herzegovina",
         "dialCode": "+387"
     },
@@ -139,7 +139,7 @@ const flags = [
         "code": "BB",
         "emoji": "🇧🇧",
         "unicode": "U+1F1E7 U+1F1E7",
-        "name": "Barbados",
+        "name": "Барбадос",
         "title": "flag for Barbados",
         "dialCode": "+1 246"
     },
@@ -147,7 +147,7 @@ const flags = [
         "code": "BD",
         "emoji": "🇧🇩",
         "unicode": "U+1F1E7 U+1F1E9",
-        "name": "Bangladesh",
+        "name": "Бангладеш",
         "title": "flag for Bangladesh",
         "dialCode": "+880"
     },
@@ -155,7 +155,7 @@ const flags = [
         "code": "BE",
         "emoji": "🇧🇪",
         "unicode": "U+1F1E7 U+1F1EA",
-        "name": "Belgium",
+        "name": "Бельгия",
         "title": "flag for Belgium",
         "dialCode": "+32"
     },
@@ -163,7 +163,7 @@ const flags = [
         "code": "BF",
         "emoji": "🇧🇫",
         "unicode": "U+1F1E7 U+1F1EB",
-        "name": "Burkina Faso",
+        "name": "Буркина-Фасо",
         "title": "flag for Burkina Faso",
         "dialCode": "+226"
     },
@@ -171,7 +171,7 @@ const flags = [
         "code": "BG",
         "emoji": "🇧🇬",
         "unicode": "U+1F1E7 U+1F1EC",
-        "name": "Bulgaria",
+        "name": "Болгария",
         "title": "flag for Bulgaria",
         "dialCode": "+359"
     },
@@ -179,7 +179,7 @@ const flags = [
         "code": "BH",
         "emoji": "🇧🇭",
         "unicode": "U+1F1E7 U+1F1ED",
-        "name": "Bahrain",
+        "name": "Бахрейн",
         "title": "flag for Bahrain",
         "dialCode": "+973"
     },
@@ -187,7 +187,7 @@ const flags = [
         "code": "BI",
         "emoji": "🇧🇮",
         "unicode": "U+1F1E7 U+1F1EE",
-        "name": "Burundi",
+        "name": "Бурунди",
         "title": "flag for Burundi",
         "dialCode": "+257"
     },
@@ -195,7 +195,7 @@ const flags = [
         "code": "BJ",
         "emoji": "🇧🇯",
         "unicode": "U+1F1E7 U+1F1EF",
-        "name": "Benin",
+        "name": "Бенин",
         "title": "flag for Benin",
         "dialCode": "+229"
     },
@@ -203,7 +203,7 @@ const flags = [
         "code": "BL",
         "emoji": "🇧🇱",
         "unicode": "U+1F1E7 U+1F1F1",
-        "name": "Saint Barthélemy",
+        "name": "Сен-Бартелеми",
         "title": "flag for Saint Barthélemy",
         "dialCode": "+590"
     },
@@ -211,7 +211,7 @@ const flags = [
         "code": "BM",
         "emoji": "🇧🇲",
         "unicode": "U+1F1E7 U+1F1F2",
-        "name": "Bermuda",
+        "name": "Бермуды",
         "title": "flag for Bermuda",
         "dialCode": "+1 441"
     },
@@ -219,7 +219,7 @@ const flags = [
         "code": "BN",
         "emoji": "🇧🇳",
         "unicode": "U+1F1E7 U+1F1F3",
-        "name": "Brunei Darussalam",
+        "name": "Бруней",
         "title": "flag for Brunei Darussalam",
         "dialCode": "+673"
     },
@@ -227,7 +227,7 @@ const flags = [
         "code": "BO",
         "emoji": "🇧🇴",
         "unicode": "U+1F1E7 U+1F1F4",
-        "name": "Bolivia",
+        "name": "Боливия",
         "title": "flag for Bolivia",
         "dialCode": "+591"
     },
@@ -235,14 +235,14 @@ const flags = [
         "code": "BQ",
         "emoji": "🇧🇶",
         "unicode": "U+1F1E7 U+1F1F6",
-        "name": "Bonaire, Sint Eustatius and Saba",
+        "name": "Бонэйр, Синт-Эста́тиус и Са́ба",
         "title": "flag for Bonaire, Sint Eustatius and Saba"
     },
     {
         "code": "BR",
         "emoji": "🇧🇷",
         "unicode": "U+1F1E7 U+1F1F7",
-        "name": "Brazil",
+        "name": "Бразилия",
         "title": "flag for Brazil",
         "dialCode": "+55"
     },
@@ -250,7 +250,7 @@ const flags = [
         "code": "BS",
         "emoji": "🇧🇸",
         "unicode": "U+1F1E7 U+1F1F8",
-        "name": "Bahamas",
+        "name": "Багамы",
         "title": "flag for Bahamas",
         "dialCode": "+1 242"
     },
@@ -258,7 +258,7 @@ const flags = [
         "code": "BT",
         "emoji": "🇧🇹",
         "unicode": "U+1F1E7 U+1F1F9",
-        "name": "Bhutan",
+        "name": "Бутан",
         "title": "flag for Bhutan",
         "dialCode": "+975"
     },
@@ -266,14 +266,14 @@ const flags = [
         "code": "BV",
         "emoji": "🇧🇻",
         "unicode": "U+1F1E7 U+1F1FB",
-        "name": "Bouvet Island",
+        "name": "Остров Буве",
         "title": "flag for Bouvet Island"
     },
     {
         "code": "BW",
         "emoji": "🇧🇼",
         "unicode": "U+1F1E7 U+1F1FC",
-        "name": "Botswana",
+        "name": "Ботсвана",
         "title": "flag for Botswana",
         "dialCode": "+267"
     },
@@ -281,7 +281,7 @@ const flags = [
         "code": "BY",
         "emoji": "🇧🇾",
         "unicode": "U+1F1E7 U+1F1FE",
-        "name": "Belarus",
+        "name": "Беларусь",
         "title": "flag for Belarus",
         "dialCode": "+375"
     },
@@ -289,7 +289,7 @@ const flags = [
         "code": "BZ",
         "emoji": "🇧🇿",
         "unicode": "U+1F1E7 U+1F1FF",
-        "name": "Belize",
+        "name": "Белиз",
         "title": "flag for Belize",
         "dialCode": "+501"
     },
@@ -297,7 +297,7 @@ const flags = [
         "code": "CA",
         "emoji": "🇨🇦",
         "unicode": "U+1F1E8 U+1F1E6",
-        "name": "Canada",
+        "name": "Канада",
         "title": "flag for Canada",
         "dialCode": "+1"
     },
@@ -305,7 +305,7 @@ const flags = [
         "code": "CC",
         "emoji": "🇨🇨",
         "unicode": "U+1F1E8 U+1F1E8",
-        "name": "Cocos (Keeling) Islands",
+        "name": "Кокосовые острова",
         "title": "flag for Cocos (Keeling) Islands",
         "dialCode": "+61"
     },
@@ -313,7 +313,7 @@ const flags = [
         "code": "CD",
         "emoji": "🇨🇩",
         "unicode": "U+1F1E8 U+1F1E9",
-        "name": "Congo",
+        "name": "Демократическая республика Конго",
         "title": "flag for Congo",
         "dialCode": "+243"
     },
@@ -321,7 +321,7 @@ const flags = [
         "code": "CF",
         "emoji": "🇨🇫",
         "unicode": "U+1F1E8 U+1F1EB",
-        "name": "Central African Republic",
+        "name": "Центральноафриканская Республика",
         "title": "flag for Central African Republic",
         "dialCode": "+236"
     },
@@ -329,7 +329,7 @@ const flags = [
         "code": "CG",
         "emoji": "🇨🇬",
         "unicode": "U+1F1E8 U+1F1EC",
-        "name": "Congo",
+        "name": "Конго",
         "title": "flag for Congo",
         "dialCode": "+242"
     },
@@ -337,7 +337,7 @@ const flags = [
         "code": "CH",
         "emoji": "🇨🇭",
         "unicode": "U+1F1E8 U+1F1ED",
-        "name": "Switzerland",
+        "name": "Швейцария",
         "title": "flag for Switzerland",
         "dialCode": "+41"
     },
@@ -345,7 +345,7 @@ const flags = [
         "code": "CI",
         "emoji": "🇨🇮",
         "unicode": "U+1F1E8 U+1F1EE",
-        "name": "Côte D'Ivoire",
+        "name": "Кот-д'Ивуар",
         "title": "flag for Côte D'Ivoire",
         "dialCode": "+225"
     },
@@ -353,7 +353,7 @@ const flags = [
         "code": "CK",
         "emoji": "🇨🇰",
         "unicode": "U+1F1E8 U+1F1F0",
-        "name": "Cook Islands",
+        "name": "Острова Кука",
         "title": "flag for Cook Islands",
         "dialCode": "+682"
     },
@@ -361,7 +361,7 @@ const flags = [
         "code": "CL",
         "emoji": "🇨🇱",
         "unicode": "U+1F1E8 U+1F1F1",
-        "name": "Chile",
+        "name": "Чили",
         "title": "flag for Chile",
         "dialCode": "+56"
     },
@@ -369,7 +369,7 @@ const flags = [
         "code": "CM",
         "emoji": "🇨🇲",
         "unicode": "U+1F1E8 U+1F1F2",
-        "name": "Cameroon",
+        "name": "Камерун",
         "title": "flag for Cameroon",
         "dialCode": "+237"
     },
@@ -377,7 +377,7 @@ const flags = [
         "code": "CN",
         "emoji": "🇨🇳",
         "unicode": "U+1F1E8 U+1F1F3",
-        "name": "China",
+        "name": "Китай",
         "title": "flag for China",
         "dialCode": "+86"
     },
@@ -385,7 +385,7 @@ const flags = [
         "code": "CO",
         "emoji": "🇨🇴",
         "unicode": "U+1F1E8 U+1F1F4",
-        "name": "Colombia",
+        "name": "Колумбия",
         "title": "flag for Colombia",
         "dialCode": "+57"
     },
@@ -393,7 +393,7 @@ const flags = [
         "code": "CR",
         "emoji": "🇨🇷",
         "unicode": "U+1F1E8 U+1F1F7",
-        "name": "Costa Rica",
+        "name": "Коста-Рика",
         "title": "flag for Costa Rica",
         "dialCode": "+506"
     },
@@ -401,7 +401,7 @@ const flags = [
         "code": "CU",
         "emoji": "🇨🇺",
         "unicode": "U+1F1E8 U+1F1FA",
-        "name": "Cuba",
+        "name": "Куба",
         "title": "flag for Cuba",
         "dialCode": "+53"
     },
@@ -409,7 +409,7 @@ const flags = [
         "code": "CV",
         "emoji": "🇨🇻",
         "unicode": "U+1F1E8 U+1F1FB",
-        "name": "Cape Verde",
+        "name": "Кабо-Верде",
         "title": "flag for Cape Verde",
         "dialCode": "+238"
     },
@@ -417,14 +417,14 @@ const flags = [
         "code": "CW",
         "emoji": "🇨🇼",
         "unicode": "U+1F1E8 U+1F1FC",
-        "name": "Curaçao",
+        "name": "Кюрасао",
         "title": "flag for Curaçao"
     },
     {
         "code": "CX",
         "emoji": "🇨🇽",
         "unicode": "U+1F1E8 U+1F1FD",
-        "name": "Christmas Island",
+        "name": "Остров Рождества",
         "title": "flag for Christmas Island",
         "dialCode": "+61"
     },
@@ -432,7 +432,7 @@ const flags = [
         "code": "CY",
         "emoji": "🇨🇾",
         "unicode": "U+1F1E8 U+1F1FE",
-        "name": "Cyprus",
+        "name": "Кипр",
         "title": "flag for Cyprus",
         "dialCode": "+537"
     },
@@ -440,7 +440,7 @@ const flags = [
         "code": "CZ",
         "emoji": "🇨🇿",
         "unicode": "U+1F1E8 U+1F1FF",
-        "name": "Czech Republic",
+        "name": "Чехия",
         "title": "flag for Czech Republic",
         "dialCode": "+420"
     },
@@ -448,7 +448,7 @@ const flags = [
         "code": "DE",
         "emoji": "🇩🇪",
         "unicode": "U+1F1E9 U+1F1EA",
-        "name": "Germany",
+        "name": "Германия",
         "title": "flag for Germany",
         "dialCode": "+49"
     },
@@ -456,7 +456,7 @@ const flags = [
         "code": "DJ",
         "emoji": "🇩🇯",
         "unicode": "U+1F1E9 U+1F1EF",
-        "name": "Djibouti",
+        "name": "Джибути",
         "title": "flag for Djibouti",
         "dialCode": "+253"
     },
@@ -464,7 +464,7 @@ const flags = [
         "code": "DK",
         "emoji": "🇩🇰",
         "unicode": "U+1F1E9 U+1F1F0",
-        "name": "Denmark",
+        "name": "Дания",
         "title": "flag for Denmark",
         "dialCode": "+45"
     },
@@ -472,7 +472,7 @@ const flags = [
         "code": "DM",
         "emoji": "🇩🇲",
         "unicode": "U+1F1E9 U+1F1F2",
-        "name": "Dominica",
+        "name": "Доминика",
         "title": "flag for Dominica",
         "dialCode": "+1 767"
     },
@@ -480,7 +480,7 @@ const flags = [
         "code": "DO",
         "emoji": "🇩🇴",
         "unicode": "U+1F1E9 U+1F1F4",
-        "name": "Dominican Republic",
+        "name": "Доминиканская Республика",
         "title": "flag for Dominican Republic",
         "dialCode": "+1 849"
     },
@@ -488,7 +488,7 @@ const flags = [
         "code": "DZ",
         "emoji": "🇩🇿",
         "unicode": "U+1F1E9 U+1F1FF",
-        "name": "Algeria",
+        "name": "Алжир",
         "title": "flag for Algeria",
         "dialCode": "+213"
     },
@@ -496,7 +496,7 @@ const flags = [
         "code": "EC",
         "emoji": "🇪🇨",
         "unicode": "U+1F1EA U+1F1E8",
-        "name": "Ecuador",
+        "name": "Эквадор",
         "title": "flag for Ecuador",
         "dialCode": "+593"
     },
@@ -504,7 +504,7 @@ const flags = [
         "code": "EE",
         "emoji": "🇪🇪",
         "unicode": "U+1F1EA U+1F1EA",
-        "name": "Estonia",
+        "name": "Эстония",
         "title": "flag for Estonia",
         "dialCode": "+372"
     },
@@ -512,7 +512,7 @@ const flags = [
         "code": "EG",
         "emoji": "🇪🇬",
         "unicode": "U+1F1EA U+1F1EC",
-        "name": "Egypt",
+        "name": "Египет",
         "title": "flag for Egypt",
         "dialCode": "+20"
     },
@@ -520,14 +520,14 @@ const flags = [
         "code": "EH",
         "emoji": "🇪🇭",
         "unicode": "U+1F1EA U+1F1ED",
-        "name": "Western Sahara",
+        "name": "Западная Сахара",
         "title": "flag for Western Sahara"
     },
     {
         "code": "ER",
         "emoji": "🇪🇷",
         "unicode": "U+1F1EA U+1F1F7",
-        "name": "Eritrea",
+        "name": "Эритрея",
         "title": "flag for Eritrea",
         "dialCode": "+291"
     },
@@ -535,7 +535,7 @@ const flags = [
         "code": "ES",
         "emoji": "🇪🇸",
         "unicode": "U+1F1EA U+1F1F8",
-        "name": "Spain",
+        "name": "Испания",
         "title": "flag for Spain",
         "dialCode": "+34"
     },
@@ -543,7 +543,7 @@ const flags = [
         "code": "ET",
         "emoji": "🇪🇹",
         "unicode": "U+1F1EA U+1F1F9",
-        "name": "Ethiopia",
+        "name": "Эфиопия",
         "title": "flag for Ethiopia",
         "dialCode": "+251"
     },
@@ -551,14 +551,14 @@ const flags = [
         "code": "EU",
         "emoji": "🇪🇺",
         "unicode": "U+1F1EA U+1F1FA",
-        "name": "European Union",
+        "name": "Европейский союз",
         "title": "flag for European Union"
     },
     {
         "code": "FI",
         "emoji": "🇫🇮",
         "unicode": "U+1F1EB U+1F1EE",
-        "name": "Finland",
+        "name": "Финляндия",
         "title": "flag for Finland",
         "dialCode": "+358"
     },
@@ -566,7 +566,7 @@ const flags = [
         "code": "FJ",
         "emoji": "🇫🇯",
         "unicode": "U+1F1EB U+1F1EF",
-        "name": "Fiji",
+        "name": "Фиджи",
         "title": "flag for Fiji",
         "dialCode": "+679"
     },
@@ -574,7 +574,7 @@ const flags = [
         "code": "FK",
         "emoji": "🇫🇰",
         "unicode": "U+1F1EB U+1F1F0",
-        "name": "Falkland Islands (Malvinas)",
+        "name": "Фолклендские острова",
         "title": "flag for Falkland Islands (Malvinas)",
         "dialCode": "+500"
     },
@@ -582,7 +582,7 @@ const flags = [
         "code": "FM",
         "emoji": "🇫🇲",
         "unicode": "U+1F1EB U+1F1F2",
-        "name": "Micronesia",
+        "name": "Федеративные Штаты Микронезии",
         "title": "flag for Micronesia",
         "dialCode": "+691"
     },
@@ -590,7 +590,7 @@ const flags = [
         "code": "FO",
         "emoji": "🇫🇴",
         "unicode": "U+1F1EB U+1F1F4",
-        "name": "Faroe Islands",
+        "name": "Фарерские острова",
         "title": "flag for Faroe Islands",
         "dialCode": "+298"
     },
@@ -598,7 +598,7 @@ const flags = [
         "code": "FR",
         "emoji": "🇫🇷",
         "unicode": "U+1F1EB U+1F1F7",
-        "name": "France",
+        "name": "Франция",
         "title": "flag for France",
         "dialCode": "+33"
     },
@@ -606,7 +606,7 @@ const flags = [
         "code": "GA",
         "emoji": "🇬🇦",
         "unicode": "U+1F1EC U+1F1E6",
-        "name": "Gabon",
+        "name": "Габон",
         "title": "flag for Gabon",
         "dialCode": "+241"
     },
@@ -614,7 +614,7 @@ const flags = [
         "code": "GB",
         "emoji": "🇬🇧",
         "unicode": "U+1F1EC U+1F1E7",
-        "name": "United Kingdom",
+        "name": "Великобритания",
         "title": "flag for United Kingdom",
         "dialCode": "+44"
     },
@@ -622,7 +622,7 @@ const flags = [
         "code": "GD",
         "emoji": "🇬🇩",
         "unicode": "U+1F1EC U+1F1E9",
-        "name": "Grenada",
+        "name": "Гренада",
         "title": "flag for Grenada",
         "dialCode": "+1 473"
     },
@@ -646,7 +646,7 @@ const flags = [
         "code": "GG",
         "emoji": "🇬🇬",
         "unicode": "U+1F1EC U+1F1EC",
-        "name": "Guernsey",
+        "name": "Грузия",
         "title": "flag for Guernsey",
         "dialCode": "+44"
     },
@@ -654,7 +654,7 @@ const flags = [
         "code": "GH",
         "emoji": "🇬🇭",
         "unicode": "U+1F1EC U+1F1ED",
-        "name": "Ghana",
+        "name": "Гана",
         "title": "flag for Ghana",
         "dialCode": "+233"
     },
@@ -662,7 +662,7 @@ const flags = [
         "code": "GI",
         "emoji": "🇬🇮",
         "unicode": "U+1F1EC U+1F1EE",
-        "name": "Gibraltar",
+        "name": "Гибралтар",
         "title": "flag for Gibraltar",
         "dialCode": "+350"
     },
@@ -670,7 +670,7 @@ const flags = [
         "code": "GL",
         "emoji": "🇬🇱",
         "unicode": "U+1F1EC U+1F1F1",
-        "name": "Greenland",
+        "name": "Гренландия",
         "title": "flag for Greenland",
         "dialCode": "+299"
     },
@@ -678,7 +678,7 @@ const flags = [
         "code": "GM",
         "emoji": "🇬🇲",
         "unicode": "U+1F1EC U+1F1F2",
-        "name": "Gambia",
+        "name": "Гамбия",
         "title": "flag for Gambia",
         "dialCode": "+220"
     },
@@ -686,7 +686,7 @@ const flags = [
         "code": "GN",
         "emoji": "🇬🇳",
         "unicode": "U+1F1EC U+1F1F3",
-        "name": "Guinea",
+        "name": "Гвинея",
         "title": "flag for Guinea",
         "dialCode": "+224"
     },
@@ -694,7 +694,7 @@ const flags = [
         "code": "GP",
         "emoji": "🇬🇵",
         "unicode": "U+1F1EC U+1F1F5",
-        "name": "Guadeloupe",
+        "name": "Гваделупа",
         "title": "flag for Guadeloupe",
         "dialCode": "+590"
     },
@@ -702,7 +702,7 @@ const flags = [
         "code": "GQ",
         "emoji": "🇬🇶",
         "unicode": "U+1F1EC U+1F1F6",
-        "name": "Equatorial Guinea",
+        "name": "Экваториальная Гвинея ",
         "title": "flag for Equatorial Guinea",
         "dialCode": "+240"
     },
@@ -710,7 +710,7 @@ const flags = [
         "code": "GR",
         "emoji": "🇬🇷",
         "unicode": "U+1F1EC U+1F1F7",
-        "name": "Greece",
+        "name": "Греция",
         "title": "flag for Greece",
         "dialCode": "+30"
     },
@@ -718,7 +718,7 @@ const flags = [
         "code": "GS",
         "emoji": "🇬🇸",
         "unicode": "U+1F1EC U+1F1F8",
-        "name": "South Georgia",
+        "name": "Южная Джорджия",
         "title": "flag for South Georgia",
         "dialCode": "+500"
     },
@@ -726,7 +726,7 @@ const flags = [
         "code": "GT",
         "emoji": "🇬🇹",
         "unicode": "U+1F1EC U+1F1F9",
-        "name": "Guatemala",
+        "name": "Гватемала",
         "title": "flag for Guatemala",
         "dialCode": "+502"
     },
@@ -734,7 +734,7 @@ const flags = [
         "code": "GU",
         "emoji": "🇬🇺",
         "unicode": "U+1F1EC U+1F1FA",
-        "name": "Guam",
+        "name": "Гуам",
         "title": "flag for Guam",
         "dialCode": "+1 671"
     },
@@ -742,7 +742,7 @@ const flags = [
         "code": "GW",
         "emoji": "🇬🇼",
         "unicode": "U+1F1EC U+1F1FC",
-        "name": "Guinea-Bissau",
+        "name": "Гвинея-Бисау",
         "title": "flag for Guinea-Bissau",
         "dialCode": "+245"
     },
@@ -750,7 +750,7 @@ const flags = [
         "code": "GY",
         "emoji": "🇬🇾",
         "unicode": "U+1F1EC U+1F1FE",
-        "name": "Guyana",
+        "name": "Гайана",
         "title": "flag for Guyana",
         "dialCode": "+595"
     },
@@ -758,7 +758,7 @@ const flags = [
         "code": "HK",
         "emoji": "🇭🇰",
         "unicode": "U+1F1ED U+1F1F0",
-        "name": "Hong Kong",
+        "name": "Гонконг",
         "title": "flag for Hong Kong",
         "dialCode": "+852"
     },
@@ -766,14 +766,14 @@ const flags = [
         "code": "HM",
         "emoji": "🇭🇲",
         "unicode": "U+1F1ED U+1F1F2",
-        "name": "Heard Island and Mcdonald Islands",
+        "name": "Остров Херд и остров Макдональд",
         "title": "flag for Heard Island and Mcdonald Islands"
     },
     {
         "code": "HN",
         "emoji": "🇭🇳",
         "unicode": "U+1F1ED U+1F1F3",
-        "name": "Honduras",
+        "name": "Гондурас",
         "title": "flag for Honduras",
         "dialCode": "+504"
     },
@@ -781,7 +781,7 @@ const flags = [
         "code": "HR",
         "emoji": "🇭🇷",
         "unicode": "U+1F1ED U+1F1F7",
-        "name": "Croatia",
+        "name": "Хорватия",
         "title": "flag for Croatia",
         "dialCode": "+385"
     },
@@ -789,7 +789,7 @@ const flags = [
         "code": "HT",
         "emoji": "🇭🇹",
         "unicode": "U+1F1ED U+1F1F9",
-        "name": "Haiti",
+        "name": "Гаити",
         "title": "flag for Haiti",
         "dialCode": "+509"
     },
@@ -797,7 +797,7 @@ const flags = [
         "code": "HU",
         "emoji": "🇭🇺",
         "unicode": "U+1F1ED U+1F1FA",
-        "name": "Hungary",
+        "name": "Венгрия",
         "title": "flag for Hungary",
         "dialCode": "+36"
     },
@@ -805,7 +805,7 @@ const flags = [
         "code": "ID",
         "emoji": "🇮🇩",
         "unicode": "U+1F1EE U+1F1E9",
-        "name": "Indonesia",
+        "name": "Индонезия",
         "title": "flag for Indonesia",
         "dialCode": "+62"
     },
@@ -813,7 +813,7 @@ const flags = [
         "code": "IE",
         "emoji": "🇮🇪",
         "unicode": "U+1F1EE U+1F1EA",
-        "name": "Ireland",
+        "name": "Ирландия",
         "title": "flag for Ireland",
         "dialCode": "+353"
     },
@@ -821,7 +821,7 @@ const flags = [
         "code": "IL",
         "emoji": "🇮🇱",
         "unicode": "U+1F1EE U+1F1F1",
-        "name": "Israel",
+        "name": "Израиль",
         "title": "flag for Israel",
         "dialCode": "+972"
     },
@@ -829,7 +829,7 @@ const flags = [
         "code": "IM",
         "emoji": "🇮🇲",
         "unicode": "U+1F1EE U+1F1F2",
-        "name": "Isle of Man",
+        "name": "Остров Мэн",
         "title": "flag for Isle of Man",
         "dialCode": "+44"
     },
@@ -837,7 +837,7 @@ const flags = [
         "code": "IN",
         "emoji": "🇮🇳",
         "unicode": "U+1F1EE U+1F1F3",
-        "name": "India",
+        "name": "Индия",
         "title": "flag for India",
         "dialCode": "+91"
     },
@@ -845,7 +845,7 @@ const flags = [
         "code": "IO",
         "emoji": "🇮🇴",
         "unicode": "U+1F1EE U+1F1F4",
-        "name": "British Indian Ocean Territory",
+        "name": "Британская территория в Индийском океане",
         "title": "flag for British Indian Ocean Territory",
         "dialCode": "+246"
     },
@@ -853,7 +853,7 @@ const flags = [
         "code": "IQ",
         "emoji": "🇮🇶",
         "unicode": "U+1F1EE U+1F1F6",
-        "name": "Iraq",
+        "name": "Ирак",
         "title": "flag for Iraq",
         "dialCode": "+964"
     },
@@ -861,7 +861,7 @@ const flags = [
         "code": "IR",
         "emoji": "🇮🇷",
         "unicode": "U+1F1EE U+1F1F7",
-        "name": "Iran",
+        "name": "Иран",
         "title": "flag for Iran",
         "dialCode": "+98"
     },
@@ -869,7 +869,7 @@ const flags = [
         "code": "IS",
         "emoji": "🇮🇸",
         "unicode": "U+1F1EE U+1F1F8",
-        "name": "Iceland",
+        "name": "Исландия",
         "title": "flag for Iceland",
         "dialCode": "+354"
     },
@@ -877,7 +877,7 @@ const flags = [
         "code": "IT",
         "emoji": "🇮🇹",
         "unicode": "U+1F1EE U+1F1F9",
-        "name": "Italy",
+        "name": "Италия",
         "title": "flag for Italy",
         "dialCode": "+39"
     },
@@ -885,7 +885,7 @@ const flags = [
         "code": "JE",
         "emoji": "🇯🇪",
         "unicode": "U+1F1EF U+1F1EA",
-        "name": "Jersey",
+        "name": "Джерси",
         "title": "flag for Jersey",
         "dialCode": "+44"
     },
@@ -893,7 +893,7 @@ const flags = [
         "code": "JM",
         "emoji": "🇯🇲",
         "unicode": "U+1F1EF U+1F1F2",
-        "name": "Jamaica",
+        "name": "Ямайка",
         "title": "flag for Jamaica",
         "dialCode": "+1 876"
     },
@@ -901,7 +901,7 @@ const flags = [
         "code": "JO",
         "emoji": "🇯🇴",
         "unicode": "U+1F1EF U+1F1F4",
-        "name": "Jordan",
+        "name": "Иордания",
         "title": "flag for Jordan",
         "dialCode": "+962"
     },
@@ -909,7 +909,7 @@ const flags = [
         "code": "JP",
         "emoji": "🇯🇵",
         "unicode": "U+1F1EF U+1F1F5",
-        "name": "Japan",
+        "name": "Япония",
         "title": "flag for Japan",
         "dialCode": "+81"
     },
@@ -917,7 +917,7 @@ const flags = [
         "code": "KE",
         "emoji": "🇰🇪",
         "unicode": "U+1F1F0 U+1F1EA",
-        "name": "Kenya",
+        "name": "Кения",
         "title": "flag for Kenya",
         "dialCode": "+254"
     },
@@ -925,7 +925,7 @@ const flags = [
         "code": "KG",
         "emoji": "🇰🇬",
         "unicode": "U+1F1F0 U+1F1EC",
-        "name": "Kyrgyzstan",
+        "name": "Киргизия",
         "title": "flag for Kyrgyzstan",
         "dialCode": "+996"
     },
@@ -933,7 +933,7 @@ const flags = [
         "code": "KH",
         "emoji": "🇰🇭",
         "unicode": "U+1F1F0 U+1F1ED",
-        "name": "Cambodia",
+        "name": "Камбоджа",
         "title": "flag for Cambodia",
         "dialCode": "+855"
     },
@@ -941,7 +941,7 @@ const flags = [
         "code": "KI",
         "emoji": "🇰🇮",
         "unicode": "U+1F1F0 U+1F1EE",
-        "name": "Kiribati",
+        "name": "Кирибати",
         "title": "flag for Kiribati",
         "dialCode": "+686"
     },
@@ -949,7 +949,7 @@ const flags = [
         "code": "KM",
         "emoji": "🇰🇲",
         "unicode": "U+1F1F0 U+1F1F2",
-        "name": "Comoros",
+        "name": "Коморы",
         "title": "flag for Comoros",
         "dialCode": "+269"
     },
@@ -957,7 +957,7 @@ const flags = [
         "code": "KN",
         "emoji": "🇰🇳",
         "unicode": "U+1F1F0 U+1F1F3",
-        "name": "Saint Kitts and Nevis",
+        "name": "Сент-Китс и Невис",
         "title": "flag for Saint Kitts and Nevis",
         "dialCode": "+1 869"
     },
@@ -965,7 +965,7 @@ const flags = [
         "code": "KP",
         "emoji": "🇰🇵",
         "unicode": "U+1F1F0 U+1F1F5",
-        "name": "North Korea",
+        "name": "Корейская Народно-Демократическая Республика",
         "title": "flag for North Korea",
         "dialCode": "+850"
     },
@@ -973,7 +973,7 @@ const flags = [
         "code": "KR",
         "emoji": "🇰🇷",
         "unicode": "U+1F1F0 U+1F1F7",
-        "name": "South Korea",
+        "name": "Южная Корея",
         "title": "flag for South Korea",
         "dialCode": "+82"
     },
@@ -981,7 +981,7 @@ const flags = [
         "code": "KW",
         "emoji": "🇰🇼",
         "unicode": "U+1F1F0 U+1F1FC",
-        "name": "Kuwait",
+        "name": "Кувейт",
         "title": "flag for Kuwait",
         "dialCode": "+965"
     },
@@ -989,7 +989,7 @@ const flags = [
         "code": "KY",
         "emoji": "🇰🇾",
         "unicode": "U+1F1F0 U+1F1FE",
-        "name": "Cayman Islands",
+        "name": "Острова Кайман",
         "title": "flag for Cayman Islands",
         "dialCode": "+ 345"
     },
@@ -997,7 +997,7 @@ const flags = [
         "code": "KZ",
         "emoji": "🇰🇿",
         "unicode": "U+1F1F0 U+1F1FF",
-        "name": "Kazakhstan",
+        "name": "Казахстан",
         "title": "flag for Kazakhstan",
         "dialCode": "+7 7"
     },
@@ -1005,7 +1005,7 @@ const flags = [
         "code": "LA",
         "emoji": "🇱🇦",
         "unicode": "U+1F1F1 U+1F1E6",
-        "name": "Lao People's Democratic Republic",
+        "name": "Лаос",
         "title": "flag for Lao People's Democratic Republic",
         "dialCode": "+856"
     },
@@ -1013,7 +1013,7 @@ const flags = [
         "code": "LB",
         "emoji": "🇱🇧",
         "unicode": "U+1F1F1 U+1F1E7",
-        "name": "Lebanon",
+        "name": "Ливан",
         "title": "flag for Lebanon",
         "dialCode": "+961"
     },
@@ -1021,7 +1021,7 @@ const flags = [
         "code": "LC",
         "emoji": "🇱🇨",
         "unicode": "U+1F1F1 U+1F1E8",
-        "name": "Saint Lucia",
+        "name": "Сент-Люсия",
         "title": "flag for Saint Lucia",
         "dialCode": "+1 758"
     },
@@ -1029,7 +1029,7 @@ const flags = [
         "code": "LI",
         "emoji": "🇱🇮",
         "unicode": "U+1F1F1 U+1F1EE",
-        "name": "Liechtenstein",
+        "name": "Лихтенштейн",
         "title": "flag for Liechtenstein",
         "dialCode": "+423"
     },
@@ -1037,7 +1037,7 @@ const flags = [
         "code": "LK",
         "emoji": "🇱🇰",
         "unicode": "U+1F1F1 U+1F1F0",
-        "name": "Sri Lanka",
+        "name": "Шри-Ланка",
         "title": "flag for Sri Lanka",
         "dialCode": "+94"
     },
@@ -1045,7 +1045,7 @@ const flags = [
         "code": "LR",
         "emoji": "🇱🇷",
         "unicode": "U+1F1F1 U+1F1F7",
-        "name": "Liberia",
+        "name": "Либерия",
         "title": "flag for Liberia",
         "dialCode": "+231"
     },
@@ -1053,7 +1053,7 @@ const flags = [
         "code": "LS",
         "emoji": "🇱🇸",
         "unicode": "U+1F1F1 U+1F1F8",
-        "name": "Lesotho",
+        "name": "Лесото",
         "title": "flag for Lesotho",
         "dialCode": "+266"
     },
@@ -1061,7 +1061,7 @@ const flags = [
         "code": "LT",
         "emoji": "🇱🇹",
         "unicode": "U+1F1F1 U+1F1F9",
-        "name": "Lithuania",
+        "name": "Литва",
         "title": "flag for Lithuania",
         "dialCode": "+370"
     },
@@ -1069,7 +1069,7 @@ const flags = [
         "code": "LU",
         "emoji": "🇱🇺",
         "unicode": "U+1F1F1 U+1F1FA",
-        "name": "Luxembourg",
+        "name": "Люксембург",
         "title": "flag for Luxembourg",
         "dialCode": "+352"
     },
@@ -1077,7 +1077,7 @@ const flags = [
         "code": "LV",
         "emoji": "🇱🇻",
         "unicode": "U+1F1F1 U+1F1FB",
-        "name": "Latvia",
+        "name": "Латвия",
         "title": "flag for Latvia",
         "dialCode": "+371"
     },
@@ -1085,7 +1085,7 @@ const flags = [
         "code": "LY",
         "emoji": "🇱🇾",
         "unicode": "U+1F1F1 U+1F1FE",
-        "name": "Libya",
+        "name": "Ливия",
         "title": "flag for Libya",
         "dialCode": "+218"
     },
@@ -1093,7 +1093,7 @@ const flags = [
         "code": "MA",
         "emoji": "🇲🇦",
         "unicode": "U+1F1F2 U+1F1E6",
-        "name": "Morocco",
+        "name": "Марокко",
         "title": "flag for Morocco",
         "dialCode": "+212"
     },
@@ -1101,7 +1101,7 @@ const flags = [
         "code": "MC",
         "emoji": "🇲🇨",
         "unicode": "U+1F1F2 U+1F1E8",
-        "name": "Monaco",
+        "name": "Монако",
         "title": "flag for Monaco",
         "dialCode": "+377"
     },
@@ -1109,7 +1109,7 @@ const flags = [
         "code": "MD",
         "emoji": "🇲🇩",
         "unicode": "U+1F1F2 U+1F1E9",
-        "name": "Moldova",
+        "name": "Молдавия",
         "title": "flag for Moldova",
         "dialCode": "+373"
     },
@@ -1117,7 +1117,7 @@ const flags = [
         "code": "ME",
         "emoji": "🇲🇪",
         "unicode": "U+1F1F2 U+1F1EA",
-        "name": "Montenegro",
+        "name": "Черногория",
         "title": "flag for Montenegro",
         "dialCode": "+382"
     },
@@ -1125,7 +1125,7 @@ const flags = [
         "code": "MF",
         "emoji": "🇲🇫",
         "unicode": "U+1F1F2 U+1F1EB",
-        "name": "Saint Martin (French Part)",
+        "name": "Сен-Мартен",
         "title": "flag for Saint Martin (French Part)",
         "dialCode": "+590"
     },
@@ -1133,7 +1133,7 @@ const flags = [
         "code": "MG",
         "emoji": "🇲🇬",
         "unicode": "U+1F1F2 U+1F1EC",
-        "name": "Madagascar",
+        "name": "Мадагаскар",
         "title": "flag for Madagascar",
         "dialCode": "+261"
     },
@@ -1141,7 +1141,7 @@ const flags = [
         "code": "MH",
         "emoji": "🇲🇭",
         "unicode": "U+1F1F2 U+1F1ED",
-        "name": "Marshall Islands",
+        "name": "Маршалловы острова",
         "title": "flag for Marshall Islands",
         "dialCode": "+692"
     },
@@ -1149,7 +1149,7 @@ const flags = [
         "code": "MK",
         "emoji": "🇲🇰",
         "unicode": "U+1F1F2 U+1F1F0",
-        "name": "Macedonia",
+        "name": "Македония",
         "title": "flag for Macedonia",
         "dialCode": "+389"
     },
@@ -1157,7 +1157,7 @@ const flags = [
         "code": "ML",
         "emoji": "🇲🇱",
         "unicode": "U+1F1F2 U+1F1F1",
-        "name": "Mali",
+        "name": "Мали",
         "title": "flag for Mali",
         "dialCode": "+223"
     },
@@ -1165,7 +1165,7 @@ const flags = [
         "code": "MM",
         "emoji": "🇲🇲",
         "unicode": "U+1F1F2 U+1F1F2",
-        "name": "Myanmar",
+        "name": "Мьянма",
         "title": "flag for Myanmar",
         "dialCode": "+95"
     },
@@ -1173,7 +1173,7 @@ const flags = [
         "code": "MN",
         "emoji": "🇲🇳",
         "unicode": "U+1F1F2 U+1F1F3",
-        "name": "Mongolia",
+        "name": "Монголия",
         "title": "flag for Mongolia",
         "dialCode": "+976"
     },
@@ -1181,7 +1181,7 @@ const flags = [
         "code": "MO",
         "emoji": "🇲🇴",
         "unicode": "U+1F1F2 U+1F1F4",
-        "name": "Macao",
+        "name": "Макао",
         "title": "flag for Macao",
         "dialCode": "+853"
     },
@@ -1189,7 +1189,7 @@ const flags = [
         "code": "MP",
         "emoji": "🇲🇵",
         "unicode": "U+1F1F2 U+1F1F5",
-        "name": "Northern Mariana Islands",
+        "name": "Северные Марианские острова",
         "title": "flag for Northern Mariana Islands",
         "dialCode": "+1 670"
     },
@@ -1197,7 +1197,7 @@ const flags = [
         "code": "MQ",
         "emoji": "🇲🇶",
         "unicode": "U+1F1F2 U+1F1F6",
-        "name": "Martinique",
+        "name": "Мартиника",
         "title": "flag for Martinique",
         "dialCode": "+596"
     },
@@ -1205,7 +1205,7 @@ const flags = [
         "code": "MR",
         "emoji": "🇲🇷",
         "unicode": "U+1F1F2 U+1F1F7",
-        "name": "Mauritania",
+        "name": "Мавритания",
         "title": "flag for Mauritania",
         "dialCode": "+222"
     },
@@ -1213,7 +1213,7 @@ const flags = [
         "code": "MS",
         "emoji": "🇲🇸",
         "unicode": "U+1F1F2 U+1F1F8",
-        "name": "Montserrat",
+        "name": "Монтсеррат",
         "title": "flag for Montserrat",
         "dialCode": "+1664"
     },
@@ -1221,7 +1221,7 @@ const flags = [
         "code": "MT",
         "emoji": "🇲🇹",
         "unicode": "U+1F1F2 U+1F1F9",
-        "name": "Malta",
+        "name": "Мальта",
         "title": "flag for Malta",
         "dialCode": "+356"
     },
@@ -1229,7 +1229,7 @@ const flags = [
         "code": "MU",
         "emoji": "🇲🇺",
         "unicode": "U+1F1F2 U+1F1FA",
-        "name": "Mauritius",
+        "name": "остров Маврикий",
         "title": "flag for Mauritius",
         "dialCode": "+230"
     },
@@ -1237,7 +1237,7 @@ const flags = [
         "code": "MV",
         "emoji": "🇲🇻",
         "unicode": "U+1F1F2 U+1F1FB",
-        "name": "Maldives",
+        "name": "Мальдивы",
         "title": "flag for Maldives",
         "dialCode": "+960"
     },
@@ -1245,7 +1245,7 @@ const flags = [
         "code": "MW",
         "emoji": "🇲🇼",
         "unicode": "U+1F1F2 U+1F1FC",
-        "name": "Malawi",
+        "name": "Малави",
         "title": "flag for Malawi",
         "dialCode": "+265"
     },
@@ -1253,7 +1253,7 @@ const flags = [
         "code": "MX",
         "emoji": "🇲🇽",
         "unicode": "U+1F1F2 U+1F1FD",
-        "name": "Mexico",
+        "name": "Мексика",
         "title": "flag for Mexico",
         "dialCode": "+52"
     },
@@ -1261,7 +1261,7 @@ const flags = [
         "code": "MY",
         "emoji": "🇲🇾",
         "unicode": "U+1F1F2 U+1F1FE",
-        "name": "Malaysia",
+        "name": "Малайзия",
         "title": "flag for Malaysia",
         "dialCode": "+60"
     },
@@ -1269,7 +1269,7 @@ const flags = [
         "code": "MZ",
         "emoji": "🇲🇿",
         "unicode": "U+1F1F2 U+1F1FF",
-        "name": "Mozambique",
+        "name": "Мозамбик",
         "title": "flag for Mozambique",
         "dialCode": "+258"
     },
@@ -1277,7 +1277,7 @@ const flags = [
         "code": "NA",
         "emoji": "🇳🇦",
         "unicode": "U+1F1F3 U+1F1E6",
-        "name": "Namibia",
+        "name": "Намибия",
         "title": "flag for Namibia",
         "dialCode": "+264"
     },
@@ -1285,7 +1285,7 @@ const flags = [
         "code": "NC",
         "emoji": "🇳🇨",
         "unicode": "U+1F1F3 U+1F1E8",
-        "name": "New Caledonia",
+        "name": "Новая Каледония",
         "title": "flag for New Caledonia",
         "dialCode": "+687"
     },
@@ -1293,7 +1293,7 @@ const flags = [
         "code": "NE",
         "emoji": "🇳🇪",
         "unicode": "U+1F1F3 U+1F1EA",
-        "name": "Niger",
+        "name": "Нигер",
         "title": "flag for Niger",
         "dialCode": "+227"
     },
@@ -1301,7 +1301,7 @@ const flags = [
         "code": "NF",
         "emoji": "🇳🇫",
         "unicode": "U+1F1F3 U+1F1EB",
-        "name": "Norfolk Island",
+        "name": "Остров Норфолк",
         "title": "flag for Norfolk Island",
         "dialCode": "+672"
     },
@@ -1309,7 +1309,7 @@ const flags = [
         "code": "NG",
         "emoji": "🇳🇬",
         "unicode": "U+1F1F3 U+1F1EC",
-        "name": "Nigeria",
+        "name": "Нигерия",
         "title": "flag for Nigeria",
         "dialCode": "+234"
     },
@@ -1317,7 +1317,7 @@ const flags = [
         "code": "NI",
         "emoji": "🇳🇮",
         "unicode": "U+1F1F3 U+1F1EE",
-        "name": "Nicaragua",
+        "name": "Никарагуа",
         "title": "flag for Nicaragua",
         "dialCode": "+505"
     },
@@ -1325,7 +1325,7 @@ const flags = [
         "code": "NL",
         "emoji": "🇳🇱",
         "unicode": "U+1F1F3 U+1F1F1",
-        "name": "Netherlands",
+        "name": "Нидерланды",
         "title": "flag for Netherlands",
         "dialCode": "+31"
     },
@@ -1333,7 +1333,7 @@ const flags = [
         "code": "NO",
         "emoji": "🇳🇴",
         "unicode": "U+1F1F3 U+1F1F4",
-        "name": "Norway",
+        "name": "Норвегия",
         "title": "flag for Norway",
         "dialCode": "+47"
     },
@@ -1341,7 +1341,7 @@ const flags = [
         "code": "NP",
         "emoji": "🇳🇵",
         "unicode": "U+1F1F3 U+1F1F5",
-        "name": "Nepal",
+        "name": "Непал",
         "title": "flag for Nepal",
         "dialCode": "+977"
     },
@@ -1349,7 +1349,7 @@ const flags = [
         "code": "NR",
         "emoji": "🇳🇷",
         "unicode": "U+1F1F3 U+1F1F7",
-        "name": "Nauru",
+        "name": "Науру",
         "title": "flag for Nauru",
         "dialCode": "+674"
     },
@@ -1357,7 +1357,7 @@ const flags = [
         "code": "NU",
         "emoji": "🇳🇺",
         "unicode": "U+1F1F3 U+1F1FA",
-        "name": "Niue",
+        "name": "Ниуэ",
         "title": "flag for Niue",
         "dialCode": "+683"
     },
@@ -1365,7 +1365,7 @@ const flags = [
         "code": "NZ",
         "emoji": "🇳🇿",
         "unicode": "U+1F1F3 U+1F1FF",
-        "name": "New Zealand",
+        "name": "Новая Зеландия",
         "title": "flag for New Zealand",
         "dialCode": "+64"
     },
@@ -1373,7 +1373,7 @@ const flags = [
         "code": "OM",
         "emoji": "🇴🇲",
         "unicode": "U+1F1F4 U+1F1F2",
-        "name": "Oman",
+        "name": "Оман",
         "title": "flag for Oman",
         "dialCode": "+968"
     },
@@ -1381,7 +1381,7 @@ const flags = [
         "code": "PA",
         "emoji": "🇵🇦",
         "unicode": "U+1F1F5 U+1F1E6",
-        "name": "Panama",
+        "name": "Панама",
         "title": "flag for Panama",
         "dialCode": "+507"
     },
@@ -1389,7 +1389,7 @@ const flags = [
         "code": "PE",
         "emoji": "🇵🇪",
         "unicode": "U+1F1F5 U+1F1EA",
-        "name": "Peru",
+        "name": "Перу",
         "title": "flag for Peru",
         "dialCode": "+51"
     },
@@ -1397,7 +1397,7 @@ const flags = [
         "code": "PF",
         "emoji": "🇵🇫",
         "unicode": "U+1F1F5 U+1F1EB",
-        "name": "French Polynesia",
+        "name": "Французская Полинезия",
         "title": "flag for French Polynesia",
         "dialCode": "+689"
     },
@@ -1405,7 +1405,7 @@ const flags = [
         "code": "PG",
         "emoji": "🇵🇬",
         "unicode": "U+1F1F5 U+1F1EC",
-        "name": "Papua New Guinea",
+        "name": "Папуа-Новая Гвинея ",
         "title": "flag for Papua New Guinea",
         "dialCode": "+675"
     },
@@ -1413,7 +1413,7 @@ const flags = [
         "code": "PH",
         "emoji": "🇵🇭",
         "unicode": "U+1F1F5 U+1F1ED",
-        "name": "Philippines",
+        "name": "Филиппины",
         "title": "flag for Philippines",
         "dialCode": "+63"
     },
@@ -1421,7 +1421,7 @@ const flags = [
         "code": "PK",
         "emoji": "🇵🇰",
         "unicode": "U+1F1F5 U+1F1F0",
-        "name": "Pakistan",
+        "name": "Пакистан",
         "title": "flag for Pakistan",
         "dialCode": "+92"
     },
@@ -1429,7 +1429,7 @@ const flags = [
         "code": "PL",
         "emoji": "🇵🇱",
         "unicode": "U+1F1F5 U+1F1F1",
-        "name": "Poland",
+        "name": "Польша",
         "title": "flag for Poland",
         "dialCode": "+48"
     },
@@ -1437,7 +1437,7 @@ const flags = [
         "code": "PM",
         "emoji": "🇵🇲",
         "unicode": "U+1F1F5 U+1F1F2",
-        "name": "Saint Pierre and Miquelon",
+        "name": "Сен-Пьер и Микелон",
         "title": "flag for Saint Pierre and Miquelon",
         "dialCode": "+508"
     },
@@ -1445,7 +1445,7 @@ const flags = [
         "code": "PN",
         "emoji": "🇵🇳",
         "unicode": "U+1F1F5 U+1F1F3",
-        "name": "Pitcairn",
+        "name": "острова Питкэрн",
         "title": "flag for Pitcairn",
         "dialCode": "+872"
     },
@@ -1453,7 +1453,7 @@ const flags = [
         "code": "PR",
         "emoji": "🇵🇷",
         "unicode": "U+1F1F5 U+1F1F7",
-        "name": "Puerto Rico",
+        "name": "Пуэрто-Рико",
         "title": "flag for Puerto Rico",
         "dialCode": "+1 939"
     },
@@ -1461,7 +1461,7 @@ const flags = [
         "code": "PS",
         "emoji": "🇵🇸",
         "unicode": "U+1F1F5 U+1F1F8",
-        "name": "Palestinian Territory",
+        "name": "Палестинские территории",
         "title": "flag for Palestinian Territory",
         "dialCode": "+970"
     },
@@ -1469,7 +1469,7 @@ const flags = [
         "code": "PT",
         "emoji": "🇵🇹",
         "unicode": "U+1F1F5 U+1F1F9",
-        "name": "Portugal",
+        "name": "Португалия",
         "title": "flag for Portugal",
         "dialCode": "+351"
     },
@@ -1477,7 +1477,7 @@ const flags = [
         "code": "PW",
         "emoji": "🇵🇼",
         "unicode": "U+1F1F5 U+1F1FC",
-        "name": "Palau",
+        "name": "Палау",
         "title": "flag for Palau",
         "dialCode": "+680"
     },
@@ -1485,7 +1485,7 @@ const flags = [
         "code": "PY",
         "emoji": "🇵🇾",
         "unicode": "U+1F1F5 U+1F1FE",
-        "name": "Paraguay",
+        "name": "Парагвай",
         "title": "flag for Paraguay",
         "dialCode": "+595"
     },
@@ -1493,7 +1493,7 @@ const flags = [
         "code": "QA",
         "emoji": "🇶🇦",
         "unicode": "U+1F1F6 U+1F1E6",
-        "name": "Qatar",
+        "name": "Катар",
         "title": "flag for Qatar",
         "dialCode": "+974"
     },
@@ -1501,7 +1501,7 @@ const flags = [
         "code": "RE",
         "emoji": "🇷🇪",
         "unicode": "U+1F1F7 U+1F1EA",
-        "name": "Réunion",
+        "name": "Реюньон",
         "title": "flag for Réunion",
         "dialCode": "+262"
     },
@@ -1509,7 +1509,7 @@ const flags = [
         "code": "RO",
         "emoji": "🇷🇴",
         "unicode": "U+1F1F7 U+1F1F4",
-        "name": "Romania",
+        "name": "Румыния",
         "title": "flag for Romania",
         "dialCode": "+40"
     },
@@ -1517,7 +1517,7 @@ const flags = [
         "code": "RS",
         "emoji": "🇷🇸",
         "unicode": "U+1F1F7 U+1F1F8",
-        "name": "Serbia",
+        "name": "Сербия",
         "title": "flag for Serbia",
         "dialCode": "+381"
     },
@@ -1525,7 +1525,7 @@ const flags = [
         "code": "RU",
         "emoji": "🇷🇺",
         "unicode": "U+1F1F7 U+1F1FA",
-        "name": "Russia",
+        "name": "Россия",
         "title": "flag for Russia",
         "dialCode": "+7"
     },
@@ -1533,7 +1533,7 @@ const flags = [
         "code": "RW",
         "emoji": "🇷🇼",
         "unicode": "U+1F1F7 U+1F1FC",
-        "name": "Rwanda",
+        "name": "Руанда",
         "title": "flag for Rwanda",
         "dialCode": "+250"
     },
@@ -1541,7 +1541,7 @@ const flags = [
         "code": "SA",
         "emoji": "🇸🇦",
         "unicode": "U+1F1F8 U+1F1E6",
-        "name": "Saudi Arabia",
+        "name": "Саудовская Аравия",
         "title": "flag for Saudi Arabia",
         "dialCode": "+966"
     },
@@ -1549,7 +1549,7 @@ const flags = [
         "code": "SB",
         "emoji": "🇸🇧",
         "unicode": "U+1F1F8 U+1F1E7",
-        "name": "Solomon Islands",
+        "name": "Соломоновы острова",
         "title": "flag for Solomon Islands",
         "dialCode": "+677"
     },
@@ -1557,7 +1557,7 @@ const flags = [
         "code": "SC",
         "emoji": "🇸🇨",
         "unicode": "U+1F1F8 U+1F1E8",
-        "name": "Seychelles",
+        "name": "Сейшелы",
         "title": "flag for Seychelles",
         "dialCode": "+248"
     },
@@ -1565,7 +1565,7 @@ const flags = [
         "code": "SD",
         "emoji": "🇸🇩",
         "unicode": "U+1F1F8 U+1F1E9",
-        "name": "Sudan",
+        "name": "Судан",
         "title": "flag for Sudan",
         "dialCode": "+249"
     },
@@ -1573,7 +1573,7 @@ const flags = [
         "code": "SE",
         "emoji": "🇸🇪",
         "unicode": "U+1F1F8 U+1F1EA",
-        "name": "Sweden",
+        "name": "Швеция",
         "title": "flag for Sweden",
         "dialCode": "+46"
     },
@@ -1581,7 +1581,7 @@ const flags = [
         "code": "SG",
         "emoji": "🇸🇬",
         "unicode": "U+1F1F8 U+1F1EC",
-        "name": "Singapore",
+        "name": "Сингапур",
         "title": "flag for Singapore",
         "dialCode": "+65"
     },
@@ -1589,7 +1589,7 @@ const flags = [
         "code": "SH",
         "emoji": "🇸🇭",
         "unicode": "U+1F1F8 U+1F1ED",
-        "name": "Saint Helena, Ascension and Tristan Da Cunha",
+        "name": "остров Святой Елены",
         "title": "flag for Saint Helena, Ascension and Tristan Da Cunha",
         "dialCode": "+290"
     },
@@ -1597,7 +1597,7 @@ const flags = [
         "code": "SI",
         "emoji": "🇸🇮",
         "unicode": "U+1F1F8 U+1F1EE",
-        "name": "Slovenia",
+        "name": "Словения",
         "title": "flag for Slovenia",
         "dialCode": "+386"
     },
@@ -1605,7 +1605,7 @@ const flags = [
         "code": "SJ",
         "emoji": "🇸🇯",
         "unicode": "U+1F1F8 U+1F1EF",
-        "name": "Svalbard and Jan Mayen",
+        "name": "Шпицберген",
         "title": "flag for Svalbard and Jan Mayen",
         "dialCode": "+47"
     },
@@ -1613,7 +1613,7 @@ const flags = [
         "code": "SK",
         "emoji": "🇸🇰",
         "unicode": "U+1F1F8 U+1F1F0",
-        "name": "Slovakia",
+        "name": "Словакия",
         "title": "flag for Slovakia",
         "dialCode": "+421"
     },
@@ -1621,7 +1621,7 @@ const flags = [
         "code": "SL",
         "emoji": "🇸🇱",
         "unicode": "U+1F1F8 U+1F1F1",
-        "name": "Sierra Leone",
+        "name": "Сьерра-Леоне",
         "title": "flag for Sierra Leone",
         "dialCode": "+232"
     },
@@ -1629,7 +1629,7 @@ const flags = [
         "code": "SM",
         "emoji": "🇸🇲",
         "unicode": "U+1F1F8 U+1F1F2",
-        "name": "San Marino",
+        "name": "Сан-Марино",
         "title": "flag for San Marino",
         "dialCode": "+378"
     },
@@ -1637,7 +1637,7 @@ const flags = [
         "code": "SN",
         "emoji": "🇸🇳",
         "unicode": "U+1F1F8 U+1F1F3",
-        "name": "Senegal",
+        "name": "Сенегал",
         "title": "flag for Senegal",
         "dialCode": "+221"
     },
@@ -1645,7 +1645,7 @@ const flags = [
         "code": "SO",
         "emoji": "🇸🇴",
         "unicode": "U+1F1F8 U+1F1F4",
-        "name": "Somalia",
+        "name": "Сомали",
         "title": "flag for Somalia",
         "dialCode": "+252"
     },
@@ -1653,7 +1653,7 @@ const flags = [
         "code": "SR",
         "emoji": "🇸🇷",
         "unicode": "U+1F1F8 U+1F1F7",
-        "name": "Suriname",
+        "name": "Суринам",
         "title": "flag for Suriname",
         "dialCode": "+597"
     },
@@ -1661,14 +1661,14 @@ const flags = [
         "code": "SS",
         "emoji": "🇸🇸",
         "unicode": "U+1F1F8 U+1F1F8",
-        "name": "South Sudan",
+        "name": "Южный Судан",
         "title": "flag for South Sudan"
     },
     {
         "code": "ST",
         "emoji": "🇸🇹",
         "unicode": "U+1F1F8 U+1F1F9",
-        "name": "Sao Tome and Principe",
+        "name": "Сан-Томе и Принсипи",
         "title": "flag for Sao Tome and Principe",
         "dialCode": "+239"
     },
@@ -1676,7 +1676,7 @@ const flags = [
         "code": "SV",
         "emoji": "🇸🇻",
         "unicode": "U+1F1F8 U+1F1FB",
-        "name": "El Salvador",
+        "name": "Сальвадор",
         "title": "flag for El Salvador",
         "dialCode": "+503"
     },
@@ -1684,14 +1684,14 @@ const flags = [
         "code": "SX",
         "emoji": "🇸🇽",
         "unicode": "U+1F1F8 U+1F1FD",
-        "name": "Sint Maarten (Dutch Part)",
+        "name": "Синт-Мартен",
         "title": "flag for Sint Maarten (Dutch Part)"
     },
     {
         "code": "SY",
         "emoji": "🇸🇾",
         "unicode": "U+1F1F8 U+1F1FE",
-        "name": "Syrian Arab Republic",
+        "name": "Сирия",
         "title": "flag for Syrian Arab Republic",
         "dialCode": "+963"
     },
@@ -1699,7 +1699,7 @@ const flags = [
         "code": "SZ",
         "emoji": "🇸🇿",
         "unicode": "U+1F1F8 U+1F1FF",
-        "name": "Swaziland",
+        "name": "Эсватини",
         "title": "flag for Swaziland",
         "dialCode": "+268"
     },
@@ -1707,7 +1707,7 @@ const flags = [
         "code": "TC",
         "emoji": "🇹🇨",
         "unicode": "U+1F1F9 U+1F1E8",
-        "name": "Turks and Caicos Islands",
+        "name": "Острова Теркс и Кайкос",
         "title": "flag for Turks and Caicos Islands",
         "dialCode": "+1 649"
     },
@@ -1715,7 +1715,7 @@ const flags = [
         "code": "TD",
         "emoji": "🇹🇩",
         "unicode": "U+1F1F9 U+1F1E9",
-        "name": "Chad",
+        "name": "Чад",
         "title": "flag for Chad",
         "dialCode": "+235"
     },
@@ -1723,14 +1723,14 @@ const flags = [
         "code": "TF",
         "emoji": "🇹🇫",
         "unicode": "U+1F1F9 U+1F1EB",
-        "name": "French Southern Territories",
+        "name": "Французские Южные и Антарктические Территории",
         "title": "flag for French Southern Territories"
     },
     {
         "code": "TG",
         "emoji": "🇹🇬",
         "unicode": "U+1F1F9 U+1F1EC",
-        "name": "Togo",
+        "name": "Того",
         "title": "flag for Togo",
         "dialCode": "+228"
     },
@@ -1738,7 +1738,7 @@ const flags = [
         "code": "TH",
         "emoji": "🇹🇭",
         "unicode": "U+1F1F9 U+1F1ED",
-        "name": "Thailand",
+        "name": "Таиланд",
         "title": "flag for Thailand",
         "dialCode": "+66"
     },
@@ -1746,7 +1746,7 @@ const flags = [
         "code": "TJ",
         "emoji": "🇹🇯",
         "unicode": "U+1F1F9 U+1F1EF",
-        "name": "Tajikistan",
+        "name": "Таджикистан",
         "title": "flag for Tajikistan",
         "dialCode": "+992"
     },
@@ -1754,7 +1754,7 @@ const flags = [
         "code": "TK",
         "emoji": "🇹🇰",
         "unicode": "U+1F1F9 U+1F1F0",
-        "name": "Tokelau",
+        "name": "Токелау",
         "title": "flag for Tokelau",
         "dialCode": "+690"
     },
@@ -1762,7 +1762,7 @@ const flags = [
         "code": "TL",
         "emoji": "🇹🇱",
         "unicode": "U+1F1F9 U+1F1F1",
-        "name": "Timor-Leste",
+        "name": "Восточный Тимор",
         "title": "flag for Timor-Leste",
         "dialCode": "+670"
     },
@@ -1770,7 +1770,7 @@ const flags = [
         "code": "TM",
         "emoji": "🇹🇲",
         "unicode": "U+1F1F9 U+1F1F2",
-        "name": "Turkmenistan",
+        "name": "Туркменистан",
         "title": "flag for Turkmenistan",
         "dialCode": "+993"
     },
@@ -1778,7 +1778,7 @@ const flags = [
         "code": "TN",
         "emoji": "🇹🇳",
         "unicode": "U+1F1F9 U+1F1F3",
-        "name": "Tunisia",
+        "name": "Тунис",
         "title": "flag for Tunisia",
         "dialCode": "+216"
     },
@@ -1786,7 +1786,7 @@ const flags = [
         "code": "TO",
         "emoji": "🇹🇴",
         "unicode": "U+1F1F9 U+1F1F4",
-        "name": "Tonga",
+        "name": "Тонга",
         "title": "flag for Tonga",
         "dialCode": "+676"
     },
@@ -1794,7 +1794,7 @@ const flags = [
         "code": "TR",
         "emoji": "🇹🇷",
         "unicode": "U+1F1F9 U+1F1F7",
-        "name": "Turkey",
+        "name": "Турция",
         "title": "flag for Turkey",
         "dialCode": "+90"
     },
@@ -1802,7 +1802,7 @@ const flags = [
         "code": "TT",
         "emoji": "🇹🇹",
         "unicode": "U+1F1F9 U+1F1F9",
-        "name": "Trinidad and Tobago",
+        "name": "Тринидад и Тобаго",
         "title": "flag for Trinidad and Tobago",
         "dialCode": "+1 868"
     },
@@ -1810,7 +1810,7 @@ const flags = [
         "code": "TV",
         "emoji": "🇹🇻",
         "unicode": "U+1F1F9 U+1F1FB",
-        "name": "Tuvalu",
+        "name": "Тувалу",
         "title": "flag for Tuvalu",
         "dialCode": "+688"
     },
@@ -1818,7 +1818,7 @@ const flags = [
         "code": "TW",
         "emoji": "🇹🇼",
         "unicode": "U+1F1F9 U+1F1FC",
-        "name": "Taiwan",
+        "name": "Тайвань",
         "title": "flag for Taiwan",
         "dialCode": "+886"
     },
@@ -1826,7 +1826,7 @@ const flags = [
         "code": "TZ",
         "emoji": "🇹🇿",
         "unicode": "U+1F1F9 U+1F1FF",
-        "name": "Tanzania",
+        "name": "Танзания",
         "title": "flag for Tanzania",
         "dialCode": "+255"
     },
@@ -1834,7 +1834,7 @@ const flags = [
         "code": "UA",
         "emoji": "🇺🇦",
         "unicode": "U+1F1FA U+1F1E6",
-        "name": "Ukraine",
+        "name": "Украина",
         "title": "flag for Ukraine",
         "dialCode": "+380"
     },
@@ -1842,7 +1842,7 @@ const flags = [
         "code": "UG",
         "emoji": "🇺🇬",
         "unicode": "U+1F1FA U+1F1EC",
-        "name": "Uganda",
+        "name": "Уганда",
         "title": "flag for Uganda",
         "dialCode": "+256"
     },
@@ -1850,14 +1850,14 @@ const flags = [
         "code": "UM",
         "emoji": "🇺🇲",
         "unicode": "U+1F1FA U+1F1F2",
-        "name": "United States Minor Outlying Islands",
+        "name": "Внешние малые острова (США)",
         "title": "flag for United States Minor Outlying Islands"
     },
     {
         "code": "US",
         "emoji": "🇺🇸",
         "unicode": "U+1F1FA U+1F1F8",
-        "name": "United States",
+        "name": "США",
         "title": "flag for United States",
         "dialCode": "+1"
     },
@@ -1865,7 +1865,7 @@ const flags = [
         "code": "UY",
         "emoji": "🇺🇾",
         "unicode": "U+1F1FA U+1F1FE",
-        "name": "Uruguay",
+        "name": "Уругвай",
         "title": "flag for Uruguay",
         "dialCode": "+598"
     },
@@ -1873,7 +1873,7 @@ const flags = [
         "code": "UZ",
         "emoji": "🇺🇿",
         "unicode": "U+1F1FA U+1F1FF",
-        "name": "Uzbekistan",
+        "name": "Узбекистан",
         "title": "flag for Uzbekistan",
         "dialCode": "+998"
     },
@@ -1881,7 +1881,7 @@ const flags = [
         "code": "VA",
         "emoji": "🇻🇦",
         "unicode": "U+1F1FB U+1F1E6",
-        "name": "Vatican City",
+        "name": "Папский Престол(Ватикан)",
         "title": "flag for Vatican City",
         "dialCode": "+379"
     },
@@ -1889,7 +1889,7 @@ const flags = [
         "code": "VC",
         "emoji": "🇻🇨",
         "unicode": "U+1F1FB U+1F1E8",
-        "name": "Saint Vincent and The Grenadines",
+        "name": "Сент-Винсент и Гренадины",
         "title": "flag for Saint Vincent and The Grenadines",
         "dialCode": "+1 784"
     },
@@ -1897,7 +1897,7 @@ const flags = [
         "code": "VE",
         "emoji": "🇻🇪",
         "unicode": "U+1F1FB U+1F1EA",
-        "name": "Venezuela",
+        "name": "Венесуэла",
         "title": "flag for Venezuela",
         "dialCode": "+58"
     },
@@ -1905,7 +1905,7 @@ const flags = [
         "code": "VG",
         "emoji": "🇻🇬",
         "unicode": "U+1F1FB U+1F1EC",
-        "name": "Virgin Islands, British",
+        "name": "Британские Виргинские острова",
         "title": "flag for Virgin Islands, British",
         "dialCode": "+1 284"
     },
@@ -1913,7 +1913,7 @@ const flags = [
         "code": "VI",
         "emoji": "🇻🇮",
         "unicode": "U+1F1FB U+1F1EE",
-        "name": "Virgin Islands, U.S.",
+        "name": "Американские Виргинские острова",
         "title": "flag for Virgin Islands, U.S.",
         "dialCode": "+1 340"
     },
@@ -1921,7 +1921,7 @@ const flags = [
         "code": "VN",
         "emoji": "🇻🇳",
         "unicode": "U+1F1FB U+1F1F3",
-        "name": "Viet Nam",
+        "name": "Вьетнам",
         "title": "flag for Viet Nam",
         "dialCode": "+84"
     },
@@ -1929,7 +1929,7 @@ const flags = [
         "code": "VU",
         "emoji": "🇻🇺",
         "unicode": "U+1F1FB U+1F1FA",
-        "name": "Vanuatu",
+        "name": "Вануату",
         "title": "flag for Vanuatu",
         "dialCode": "+678"
     },
@@ -1937,7 +1937,7 @@ const flags = [
         "code": "WF",
         "emoji": "🇼🇫",
         "unicode": "U+1F1FC U+1F1EB",
-        "name": "Wallis and Futuna",
+        "name": "острова Уоллис и Футуна",
         "title": "flag for Wallis and Futuna",
         "dialCode": "+681"
     },
@@ -1945,7 +1945,7 @@ const flags = [
         "code": "WS",
         "emoji": "🇼🇸",
         "unicode": "U+1F1FC U+1F1F8",
-        "name": "Samoa",
+        "name": "Самоа",
         "title": "flag for Samoa",
         "dialCode": "+685"
     },
@@ -1953,7 +1953,7 @@ const flags = [
         "code": "XK",
         "emoji": "🇽🇰",
         "unicode": "U+1F1FD U+1F1F0",
-        "name": "Kosovo",
+        "name": "Косово",
         "title": "flag for Kosovo",
         "dialCode": "+383"
     },
@@ -1961,7 +1961,7 @@ const flags = [
         "code": "YE",
         "emoji": "🇾🇪",
         "unicode": "U+1F1FE U+1F1EA",
-        "name": "Yemen",
+        "name": "Йемен",
         "title": "flag for Yemen",
         "dialCode": "+967"
     },
@@ -1969,7 +1969,7 @@ const flags = [
         "code": "YT",
         "emoji": "🇾🇹",
         "unicode": "U+1F1FE U+1F1F9",
-        "name": "Mayotte",
+        "name": "Майотта",
         "title": "flag for Mayotte",
         "dialCode": "+262"
     },
@@ -1977,7 +1977,7 @@ const flags = [
         "code": "ZA",
         "emoji": "🇿🇦",
         "unicode": "U+1F1FF U+1F1E6",
-        "name": "South Africa",
+        "name": "Южно-Африканская Республика",
         "title": "flag for South Africa",
         "dialCode": "+27"
     },
@@ -1985,7 +1985,7 @@ const flags = [
         "code": "ZM",
         "emoji": "🇿🇲",
         "unicode": "U+1F1FF U+1F1F2",
-        "name": "Zambia",
+        "name": "Замбия",
         "title": "flag for Zambia",
         "dialCode": "+260"
     },
@@ -1993,7 +1993,7 @@ const flags = [
         "code": "ZW",
         "emoji": "🇿🇼",
         "unicode": "U+1F1FF U+1F1FC",
-        "name": "Zimbabwe",
+        "name": "Зимбабве",
         "title": "flag for Zimbabwe",
         "dialCode": "+263"
     }

@@ -10,6 +10,8 @@
     <script src="libraries/react-dom.development.js"></script>
     <script src="libraries/babel.min.js"></script>
     <script src="flags.js"></script>
+    <script src="pictures"></script>
+
     <style type="text/css">
 
 
@@ -50,7 +52,7 @@
             return <>
 
                 <div id="flag">
-                    {flags[result].emoji}
+                    <img src={`./pictures/png250px/${flags[result].code.toLowerCase()}.png`} />
                 </div>
                 <div id="options">
                     {flags[result].name}
