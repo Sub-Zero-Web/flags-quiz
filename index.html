@@ -52,48 +52,45 @@
     </style>
     <script type="text/babel">
 
-        function getRandomAnswers(flags,flagIndex) {
+        function shuffle(answer) {
+            for (let i = answer.length - 1; i > 0; i--) {
+                let j = Math.floor(Math.random() * (i + 1));
+                [answer[i], answer[j]] = [answer[j], answer[i]];
+            }
+            return answer;
+        }
+
+        function getRandomAnswers(flags, flagIndex) {
             const result = []; // тут индексы флагов
             result.push(flagIndex);
             for (let i = 0; i < 3; i++){
-                let a = getRandomInRange(0, flags.length);
-                if (result.includes(a))
-                    while(){
-
-                    }
+                let a;
+                do {
+                    a = getRandomInRange(flags.length);
+                } while (result.includes(a));
+                result.push(a);
             }
-
-
-
-
-            //
-
-            return result;
-
+            return shuffle(result);
         }
 
-        function getRandomInRange(min, max) {
-            return Math.floor(Math.random() * (max - min + 1)) + min;
+        function getRandomInRange(max) {
+            return Math.floor(Math.random() * max);
         }
         function App() {
-
-
-            let result = getRandomInRange(0,flags.length)
-
-
+            const[answerIndex, setAnswerIndex] = React.useState(getRandomInRange(flags.length));
+            const[answers,setAnswers] = React.useState( getRandomAnswers(flags, answerIndex));
+            console.log(answers);
             return <>
 
                 <div id="flag">
-                    <img src={`./pictures/png250px/${flags[result].code.toLowerCase()}.png`} />
+                    <img src={`./pictures/png250px/${flags[answerIndex].code.toLowerCase()}.png`} />
                 </div>
-                <div id="options">
-                    {flags[result].name}
-                </div>
+                {answers.map(index => <>
+                    <div id="options">
+                        {flags[index].name}
+                    </div>
+                </>)}
 
-                <button id="row">1 Вариант</button>
-                <button id="row">2 Вариант</button>
-                <button id="row">3 Вариант</button>
-                <button id="row">4 Вариант</button>
             </>;
         }
         ReactDOM.render(<App/>, document.getElementById('root'));
