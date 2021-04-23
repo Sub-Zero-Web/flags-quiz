@@ -28,6 +28,7 @@
             width: 800px;
             margin: 0 auto;
         }
+
         #row {
             display: flex;
             flex-direction: row;
@@ -37,16 +38,28 @@
             color: aliceblue;
             font-size: 100px;
         }
+
         #flag {
             text-align: center;
             line-height: 100px;
             font-size: 150px;
         }
-        #options{
+
+        .options button {
             text-align: center;
-            line-height: 125px;
+            line-height: 120px;
             font-size: 60px;
             color: aliceblue;
+            background-color: #2d7aee;
+        }
+
+        .options button.false {
+            color: red;
+
+        }
+
+        .options button.true {
+            color: greenyellow;
         }
 
     </style>
@@ -63,7 +76,7 @@
         function getRandomAnswers(flags, flagIndex) {
             const result = []; // тут индексы флагов
             result.push(flagIndex);
-            for (let i = 0; i < 3; i++){
+            for (let i = 0; i < 3; i++) {
                 let a;
                 do {
                     a = getRandomInRange(flags.length);
@@ -76,23 +89,42 @@
         function getRandomInRange(max) {
             return Math.floor(Math.random() * max);
         }
+
         function App() {
-            const[answerIndex, setAnswerIndex] = React.useState(getRandomInRange(flags.length));
-            const[answers,setAnswers] = React.useState( getRandomAnswers(flags, answerIndex));
-            console.log(answers);
+            const [answerIndex, setAnswerIndex] = React.useState(getRandomInRange(flags.length));
+            const [answers, setAnswers] = React.useState(getRandomAnswers(flags, answerIndex));
+
+            // pressedAnswers
+
+            function click(flagIndex) {
+                // если правильный ответ
+                if (flagIndex) {
+                    setTimeout(getRandomInRange,4000);
+                    // заводим будильник на 3 с
+                    // setTimeout
+                    // перегенерируем флаг и ответы
+                    getRandomInRange(flags.length)
+
+                } else { // если неправильный
+                    // кладем в pressedAnswers
+                }
+
+            }
+
             return <>
 
                 <div id="flag">
-                    <img src={`./pictures/png250px/${flags[answerIndex].code.toLowerCase()}.png`} />
+                    <img src={`./pictures/png250px/${flags[answerIndex].code.toLowerCase()}.png`}/>
                 </div>
                 {answers.map(index => <>
-                    <div id="options">
-                        {flags[index].name}
+                    <div className="options">
+                        <button className={'false'}>{flags[index].name}</button>
                     </div>
                 </>)}
 
             </>;
         }
+
         ReactDOM.render(<App/>, document.getElementById('root'));
     </script>
 </head>
