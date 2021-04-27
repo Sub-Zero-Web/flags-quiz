@@ -91,24 +91,48 @@
         }
 
         function App() {
-            const [answerIndex, setAnswerIndex] = React.useState(getRandomInRange(flags.length));
+            let [answerIndex, setAnswerIndex] = React.useState(getRandomInRange(flags.length));
             const [answers, setAnswers] = React.useState(getRandomAnswers(flags, answerIndex));
+            let [pressedAnswers, setPressedAnswers] = React.useState([]);
 
             // pressedAnswers
 
             function click(flagIndex) {
                 // если правильный ответ
-                if (flagIndex) {
-                    setTimeout(getRandomInRange,4000);
+                if (answerIndex === flagIndex) {
                     // заводим будильник на 3 с
                     // setTimeout
-                    // перегенерируем флаг и ответы
-                    getRandomInRange(flags.length)
+                    setTimeout(() => {
+                        // перегенерируем флаг и ответы
+                        const newAnswer = getRandomInRange(flags.length);
+                        setAnswerIndex(newAnswer);
+                        const newAnswers = getRandomAnswers(flags,newAnswer);
+                        setAnswers(newAnswers);
+                        setPressedAnswers([]);
+                        // очистить pressedAnswers
 
-                } else { // если неправильный
-                    // кладем в pressedAnswers
+                    }, 2000);
                 }
+                // кладем в pressedAnswers
+                setPressedAnswers([...pressedAnswers,flagIndex]);// если неправильный
+            }
 
+            function getAnswerClassname(currentAnswerIndex) {
+                let result = 'button';
+                // если answerIndex находится в нажатых И
+                if(pressedAnswers.includes(currentAnswerIndex)){
+                    // если правильный тогда  += 'true'
+                    if (currentAnswerIndex===answerIndex){
+                        result += ' true';
+                    }
+                    // если неправильный тогда  += 'фалсе'
+                    else{
+                        result +=' false';
+                    }
+
+                }
+                console.log(currentAnswerIndex, result);
+                return result;
             }
 
             return <>
@@ -118,7 +142,11 @@
                 </div>
                 {answers.map(index => <>
                     <div className="options">
-                        <button className={'false'}>{flags[index].name}</button>
+                        <button
+                            onClick={() => click(index)}
+                            className={getAnswerClassname(index)}>
+                            {flags[index].name}
+                        </button>
                     </div>
                 </>)}
 
