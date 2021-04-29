@@ -12,6 +12,108 @@
     <script src="flags.js"></script>
     <script src="pictures"></script>
 
+    <script type="text/babel">
+
+        function shuffle(answer) {
+            for (let i = answer.length - 1; i > 0; i--) {
+                let j = Math.floor(Math.random() * (i + 1));
+                [answer[i], answer[j]] = [answer[j], answer[i]];
+            }
+            return answer;
+        }
+
+        function getRandomAnswers(flags, flagIndex) {
+            const result = []; // тут индексы флагов
+            result.push(flagIndex);
+            for (let i = 0; i < 3; i++) {
+                let a;
+                do {
+                    a = getRandomInRange(flags.length);
+                } while (result.includes(a));
+                result.push(a);
+            }
+            return shuffle(result);
+        }
+
+        function getRandomInRange(max) {
+            return Math.floor(Math.random() * max);
+        }
+
+        function App() {
+            let [answerIndex, setAnswerIndex] = React.useState(getRandomInRange(flags.length));
+            const [answers, setAnswers] = React.useState(getRandomAnswers(flags, answerIndex));
+            let [pressedAnswers, setPressedAnswers] = React.useState([]);
+            let [win, setWin] = React.useState(0);
+
+
+            function click(flagIndex) {
+                // если правильный ответ
+                if (answerIndex === flagIndex) {
+                    if (pressedAnswers.length === 0) {
+                        setWin(win + 1)
+                    }
+                    setTimeout(() => {
+                        const newAnswer = getRandomInRange(flags.length);
+                        setAnswerIndex(newAnswer);
+                        const newAnswers = getRandomAnswers(flags, newAnswer);
+                        setAnswers(newAnswers);
+                        setPressedAnswers([]);
+
+                    }, 2000);
+                }
+                setPressedAnswers([...pressedAnswers, flagIndex]);
+            }
+
+            function resetWins() {
+                setWin(0);
+
+
+            }
+
+            function getAnswerClassname(currentAnswerIndex) {
+                let result = 'button';
+                // если answerIndex находится в нажатых И
+                if (pressedAnswers.includes(currentAnswerIndex)) {
+                    // если правильный тогда  += 'true'
+                    if (currentAnswerIndex === answerIndex) {
+                        result += ' true';
+                    }
+                    // если неправильный тогда  += 'фалсе'
+                    else {
+                        result += ' false';
+                    }
+
+
+                }
+
+                console.log(currentAnswerIndex, result);
+                return result;
+            }
+
+            return <>
+                <div id="win">
+                    Сколько раз угадал: {win}
+                    <br/>
+                    <button onClick={resetWins}>Очистить</button>
+                </div>
+
+                <div id="flag">
+                    <img src={`./pictures/png250px/${flags[answerIndex].code.toLowerCase()}.png`}/>
+                </div>
+                {answers.map(index => <>
+                    <div className="options">
+                        <button
+                            onClick={() => click(index)}
+                            className={getAnswerClassname(index)}>
+                            {flags[index].name}
+                        </button>
+                    </div>
+                </>)}
+            </>;
+        }
+
+        ReactDOM.render(<App/>, document.getElementById('root'));
+    </script>
     <style type="text/css">
 
         body {
@@ -59,106 +161,32 @@
         }
 
         .options button.true {
-            color: greenyellow;
+            color: #acff1f;
         }
+
+        #win {
+            left: -80%;
+            top: 50%;
+            position: relative;
+            text-align: center;
+            font-size: 30px;
+            color: aliceblue;
+        }
+        @media screen and (max-width: 900px) {
+            #win {
+                position: static;
+                text-align: center;
+                font-size: 50px;
+            }
+        }
+
 
     </style>
-    <script type="text/babel">
-
-        function shuffle(answer) {
-            for (let i = answer.length - 1; i > 0; i--) {
-                let j = Math.floor(Math.random() * (i + 1));
-                [answer[i], answer[j]] = [answer[j], answer[i]];
-            }
-            return answer;
-        }
-
-        function getRandomAnswers(flags, flagIndex) {
-            const result = []; // тут индексы флагов
-            result.push(flagIndex);
-            for (let i = 0; i < 3; i++) {
-                let a;
-                do {
-                    a = getRandomInRange(flags.length);
-                } while (result.includes(a));
-                result.push(a);
-            }
-            return shuffle(result);
-        }
-
-        function getRandomInRange(max) {
-            return Math.floor(Math.random() * max);
-        }
-
-        function App() {
-            let [answerIndex, setAnswerIndex] = React.useState(getRandomInRange(flags.length));
-            const [answers, setAnswers] = React.useState(getRandomAnswers(flags, answerIndex));
-            let [pressedAnswers, setPressedAnswers] = React.useState([]);
-
-            // pressedAnswers
-
-            function click(flagIndex) {
-                // если правильный ответ
-                if (answerIndex === flagIndex) {
-                    // заводим будильник на 3 с
-                    // setTimeout
-                    setTimeout(() => {
-                        // перегенерируем флаг и ответы
-                        const newAnswer = getRandomInRange(flags.length);
-                        setAnswerIndex(newAnswer);
-                        const newAnswers = getRandomAnswers(flags,newAnswer);
-                        setAnswers(newAnswers);
-                        setPressedAnswers([]);
-                        // очистить pressedAnswers
-
-                    }, 2000);
-                }
-                // кладем в pressedAnswers
-                setPressedAnswers([...pressedAnswers,flagIndex]);// если неправильный
-            }
-
-            function getAnswerClassname(currentAnswerIndex) {
-                let result = 'button';
-                // если answerIndex находится в нажатых И
-                if(pressedAnswers.includes(currentAnswerIndex)){
-                    // если правильный тогда  += 'true'
-                    if (currentAnswerIndex===answerIndex){
-                        result += ' true';
-                    }
-                    // если неправильный тогда  += 'фалсе'
-                    else{
-                        result +=' false';
-                    }
-
-                }
-                console.log(currentAnswerIndex, result);
-                return result;
-            }
-
-            return <>
-
-                <div id="flag">
-                    <img src={`./pictures/png250px/${flags[answerIndex].code.toLowerCase()}.png`}/>
-                </div>
-                {answers.map(index => <>
-                    <div className="options">
-                        <button
-                            onClick={() => click(index)}
-                            className={getAnswerClassname(index)}>
-                            {flags[index].name}
-                        </button>
-                    </div>
-                </>)}
-
-            </>;
-        }
-
-        ReactDOM.render(<App/>, document.getElementById('root'));
-    </script>
 </head>
 <body>
 <div id="wrapper">
     <div id="root"></div>
+
 </div>
 </body>
 </html>
