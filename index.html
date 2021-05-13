@@ -39,6 +39,15 @@
             return Math.floor(Math.random() * max);
         }
 
+
+        function ReverseStr({str}) {
+
+            return str.split("").reverse().join("");
+        }
+
+        ///alert(reverseStr("Привет мир!"));
+
+
         function App() {
             let [answerIndex, setAnswerIndex] = React.useState(getRandomInRange(flags.length));
             const [answers, setAnswers] = React.useState(getRandomAnswers(flags, answerIndex));
@@ -91,6 +100,7 @@
             }
 
             return <>
+                <ReverseStr str="" />
                 <div id="win">
                     Сколько раз угадал: {win}
                     <br/>
@@ -100,15 +110,43 @@
                 <div id="flag">
                     <img src={`./pictures/png250px/${flags[answerIndex].code.toLowerCase()}.png`}/>
                 </div>
-                {answers.map(index => <>
+                <div className="row">
                     <div className="options">
                         <button
-                            onClick={() => click(index)}
-                            className={getAnswerClassname(index)}>
-                            {flags[index].name}
+                            onClick={() => click(answers[0])}
+                            className={getAnswerClassname(answers[0])}>
+                            {flags[answers[0]].name}
                         </button>
                     </div>
-                </>)}
+                    <div className="options">
+                        <button
+                            onClick={() => click(answers[2])}
+                            className={getAnswerClassname(answers[2])}>
+                            {flags[answers[2]].name}
+                        </button>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="options">
+                        <button
+                            onClick={() => click(answers[1])}
+                            className={getAnswerClassname(answers[1])}>
+                            {flags[answers[1]].name}
+                        </button>
+                    </div>
+                    <div className="options">
+                        <button
+                            onClick={() => click(answers[3])}
+                            className={getAnswerClassname(answers[3])}>
+                            {flags[answers[3]].name}
+                        </button>
+                    </div>
+                </div>
+
+
+
+
+
             </>;
         }
 
@@ -131,29 +169,32 @@
             margin: 0 auto;
         }
 
-        #row {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            background: #2d7aee;
-            color: aliceblue;
-            font-size: 100px;
-        }
-
         #flag {
             text-align: center;
             line-height: 100px;
             font-size: 150px;
         }
 
+        .row{
+            display: flex;
+            flex-direction:row;
+            justify-content:space-between;
+            margin: 30px;
+            height: 220px;
+            overflow: hidden;
+        }
+
         .options button {
-            text-align: center;
-            line-height: 120px;
-            font-size: 60px;
+            height: 120px;
+            overflow: hidden;
+            min-height: 120px;
+            line-height: 50px;
+            font-size: calc(1.0vw + 1.5vh + 0vmin);
             color: aliceblue;
             background-color: #2d7aee;
         }
+
+
 
         .options button.false {
             color: red;
@@ -165,13 +206,14 @@
         }
 
         #win {
-            left: -80%;
-            top: 50%;
-            position: relative;
-            text-align: center;
+            left: 115px;
+            top: 50px;
+            position: absolute;
+            text-align: right;
             font-size: 30px;
             color: aliceblue;
         }
+
         @media screen and (max-width: 900px) {
             #win {
                 position: static;
